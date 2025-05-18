@@ -14,5 +14,31 @@ This project is currently under development. Stay tuned for updates and document
 ## Contributing
 Contributions are not currently accepted as this project is part of a university thesis for a BsC degree.
 
+## Compilation
+
+### Linux
+1. Ensure you have `cmake`, `make`, `glfw` and a C++ compiler (e.g., `g++`) installed.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/oroszpeter97/dosage.git
+   cd dosage
+   ```
+3. Create a build directory and navigate to it:
+   ```bash
+   mkdir build && cd build
+   ```
+4. Run `cmake` to configure the project:
+   ```bash
+   cmake ..
+   ```
+5. Build the project:
+   ```bash
+   make
+   ```
+6. Run the executable:
+   ```bash
+   ./dosage
+   ```
+
 ## License
 This project is licensed under the GNU General Public License v3.0.
